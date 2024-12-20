@@ -26,7 +26,7 @@ This project automates the process of tracking your favorite Amazon products for
    ```bash
    git clone https://github.com/burakssener/Amazon-Web-Scraping.git
    ```
-2. Install the required dependencies:
+2. Install the required dependencies.
    ```bash
    pip install -r requirements.txt
    ```
@@ -44,7 +44,7 @@ This project automates the process of tracking your favorite Amazon products for
 
 ## **View the Notebook**
 To view the Jupyter Notebook online, use the following link:  
-[View on nbviewer](https://nbviewer.org/github/burakssener/Amazon-Web-Scraping/blob/main/YourNotebookName.ipynb)
+[View on nbviewer](https://nbviewer.org/github/burakssener/Amazon-Web-Scraping/blob/main/AMAZON.ipynb)
 
 *(Replace `YourNotebookName.ipynb` with the actual notebook file name in your repository.)*
 
