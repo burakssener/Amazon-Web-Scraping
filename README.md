@@ -1,17 +1,17 @@
-# **Amazon Web Scraping Project**
+# **Amazon Discount Tracker**
 
 ## **Overview**
-This project demonstrates how to scrape product data from Amazon using Python. It extracts information such as product names, prices, and ratings to analyze trends and gain insights into the market. The project is implemented in a Jupyter Notebook for an interactive experience.
+This project automates the process of tracking your favorite Amazon products for discounts. It constantly monitors product prices and sends you an email notification whenever there is a price drop. The implementation leverages web scraping and automation techniques using Python.
 
 ---
 
 ## **Features**
-- Scrapes Amazon product listings using **BeautifulSoup**.
-- Extracts key product details like:
+- Scrapes Amazon product pages to fetch:
   - Product Name
-  - Price
-  - Ratings
-- Saves the scraped data into structured formats (e.g., CSV).
+  - Current Price
+  - Product Availability
+- Tracks prices over time for selected products.
+- Sends email alerts when a price drop is detected.
 
 ---
 
@@ -19,7 +19,7 @@ This project demonstrates how to scrape product data from Amazon using Python. I
 
 ### Prerequisites
 - Python 3.x
-- Required libraries: `requests`, `BeautifulSoup`, `pandas`, `jupyter`
+- Required libraries: `requests`, `BeautifulSoup`, `pandas`, `smtplib`, `schedule`, `time`
 
 ### Installation
 1. Clone the repository:
@@ -31,31 +31,35 @@ This project demonstrates how to scrape product data from Amazon using Python. I
    pip install -r requirements.txt
    ```
 
-3. Open the Jupyter Notebook to start:
-   ```bash
-   jupyter notebook
-   ```
+3. Open the script and configure your email credentials and product URLs.
+
+---
+
+## **How It Works**
+1. Add the URLs of your desired Amazon products to the tracker.
+2. The script fetches product details and price information periodically.
+3. If a price drop is detected, it sends an email alert with product details.
 
 ---
 
 ## **View the Notebook**
 To view the Jupyter Notebook online, use the following link:  
-[View on nbviewer](https://nbviewer.org/github/burakssener/Amazon-Web-Scraping/blob/main/Amazon-Web-Scraping.ipynb)
+[View on nbviewer](https://nbviewer.org/github/burakssener/Amazon-Web-Scraping/blob/main/YourNotebookName.ipynb)
 
 *(Replace `YourNotebookName.ipynb` with the actual notebook file name in your repository.)*
 
 ---
 
 ## **Usage**
-1. Update the URL in the notebook to scrape specific Amazon pages.
-2. Run the notebook to extract data.
-3. Export results as CSV or analyze within the notebook.
+1. Update the URLs and set your desired price thresholds.
+2. Run the script to start tracking your products.
+3. Leave the script running for continuous monitoring.
 
 ---
 
 ## **Notes**
 - Ensure compliance with Amazon's [Terms of Service](https://www.amazon.com/gp/help/customer/display.html?nodeId=508088) when scraping.
-- For frequent or large-scale scraping, consider using Amazon’s API.
+- The email credentials used for alerts should be kept secure.
 
 ---
 
@@ -63,3 +67,8 @@ To view the Jupyter Notebook online, use the following link:
 **Burak Şener**  
 - 🌐 [My Website](https://buraksener.com)  
 - 📧 Email: ssenerburak@gmail.com
+
+If you liked this project or want to discuss anything tech-related, feel free to connect with me:
+
+- 🌐 **Website**: [buraksener.com](https://buraksener.com)  
+- 💼 **LinkedIn**: [Burak Şener](https://www.linkedin.com/in/burakssener)
