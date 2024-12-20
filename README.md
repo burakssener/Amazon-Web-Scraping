@@ -63,12 +63,7 @@ To view the Jupyter Notebook online, use the following link:
 
 ---
 
-## **Author**
-**Burak Şener**  
-- 🌐 [My Website](https://buraksener.com)  
-- 📧 Email: ssenerburak@gmail.com
-
 If you liked this project or want to discuss anything tech-related, feel free to connect with me:
 
 - 🌐 **Website**: [buraksener.com](https://buraksener.com)  
-- 💼 **LinkedIn**: [Burak Şener](https://www.linkedin.com/in/burakssener)
+- 💼 **LinkedIn**: [Burak Sener](https://www.linkedin.com/in/burakssener)
